@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="en">
+        <head>
+        <title>Document</title>
+        </head>
+        <body >
+            <div style="width: 400px; margin: 0 auto;">
+                    <h1>Please insert your coordinates</h1>
+            
+                <form method="post" action="/addUser">
+                    <p>X:</p><br>
+                    <input type="number" name="user[x]" >
+                    <p>Y:</p><br>
+                    <input type="number" name="user[y]" >
+                    <p>Z:</p><br>
+                    <input type="number" name="user[z]" >
+                    <p>K nearest:</p><br>
+                    <input type="number" name="user[k]" >
+                    <p>Max Distance:</p><br>
+                    <input type="number" name="user[dist]">
+                    </br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </body>
+</html>

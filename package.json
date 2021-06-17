@@ -1,0 +1,16 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "My project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shai Shmuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2"
+  }
+}
